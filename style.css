@@ -1,0 +1,393 @@
+* {
+  max-width: 100%;
+  font-family: 'Varela Round', 'Quicksand' , sans-serif;
+  letter-spacing: 0.5px;
+  text-align: center;
+  box-sizing: border-box;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&family=Quicksand:wght@400;500;600&display=swap');
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.nubank-logo {
+  width: 120px;
+  height: auto;
+  margin: 10px auto;
+}
+
+body.corpo {
+  background-image: url('fundo.jpg');
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+.main {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  background: #FAFFF3;
+  border: 3px solid #820ad1;
+  box-shadow: 0px 4px 20px rgba(130, 10, 209, 0.3);
+  border-radius: 12px;
+  text-align: center;
+  padding: 30px 20px;
+  margin: 20px auto;
+}
+.cabecalho {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.cabecalho-titulo {
+  width: auto;
+  height: auto;
+  margin: 25px auto;
+  font-family: 'Varela Round', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  padding: 0 20px;
+}
+
+.cabecalho-titulo0 {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  padding: 10px;
+
+  font-family: 'Varela Round', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 29px;
+
+}
+.email, .senha, .identificacao, .identificacao-select {
+  width: 90%;
+  height: 45px;
+  margin: 10px auto !important;
+  border-radius: 8px;
+  border: 1px solid #820ad1;
+  padding: 0 15px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  font-family: 'Varela Round', sans-serif; /* Updated */
+}
+
+.email:focus, .senha:focus, .identificacao:focus, .identificacao-select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(130, 10, 209, 0.2);
+}
+.option {
+  font-family: 'Varela Round', sans-serif; /* Updated */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+
+  color: #CACACA;
+}
+ /* Chrome, Safari, Opera */
+.placeholders::-webkit-input-placeholder {
+  font-family: 'Varela Round', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #CACACA;
+}
+
+/* Firefox 18- */
+.placeholders:-moz-placeholder {
+  font-family: 'Varela Round', sans-serif; /* Updated */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+
+  color: #CACACA;
+}
+
+/* Firefox 19+ */
+.placeholders::-moz-placeholder {
+  font-family: 'Varela Round', sans-serif; /* Updated */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+
+  color: #CACACA;
+}
+
+/* IE10+ */
+.placeholders:-ms-input-placeholder {
+  font-family: 'Varela Round', sans-serif; /* Updated */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+
+  color: #CACACA;
+}
+.btn-outline-primary {
+    color: #820ad1 !important;
+    border-color: #9e24f0 !important;
+    margin: 25px auto !important;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px 30px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    width: auto;
+    display: block;
+}
+
+.btn-outline-primary:hover {
+    background-color: #820ad1 !important;
+    color: white !important;
+    transform: translateY(-2px);
+}
+
+.form-check {
+    margin: 20px 0;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Varela Round', sans-serif; /* Updated */
+}
+
+.form-check-input {
+  width: 1.5em;
+    margin-right: 10px;
+}
+
+.form-check {
+  font-family: 'Varela Round', sans-serif; /* Updated */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+}
+.form-check-label {
+  margin-left: 6px;
+}
+
+.form-control {
+  border: 0;
+  margin: 0 auto;
+}
+
+.dica {
+  width: 325px;
+  padding: 0.5px;
+  border-bottom: 1.5px solid #6a1696;
+}
+.dica-txt {
+  width: 274px;
+  height: 72px;
+  font-family: 'Varela Round', sans-serif; /* Updated */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #820ad1;
+}
+
+
+.dica-txt0 {
+  padding: 20px 0px 0px 0px;
+  font-family: 'Varela Round', sans-serif; /* Updated */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #820ad1;
+}
+
+.rodape {
+  height: 30px;
+}
+.rodape-footer {
+  font-family: 'Varela Round', sans-serif; /* Updated */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #A2A2A2;
+}
+.rodape-footer a{
+  font-family: 'Varela Round', sans-serif; /* Updated */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  text-decoration: none;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #A2A2A2;
+  padding-left: 3px;
+}
+
+
+/* Service Cards Styles */
+.services-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-section .row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.services-section .col-md-4 {
+  flex: 0 1 300px;
+}
+
+.services-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  font-family: 'Varela Round', sans-serif; /* Updated */
+}
+
+.card {
+  margin: 15px;
+  padding: 25px;
+  border-radius: 12px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  white-space: wrap;
+  text-align: center;
+  font-family: 'Varela Round', sans-serif; /* Updated */
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  font-family: 'Varela Round', sans-serif; /* Updated */
+}
+
+.services-section .row {
+  width: 100%;
+  justify-content: center;
+}
+
+.services-section .col-md-4 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.arrow-down {
+  color: #820ad1;
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.card {
+  background: #FAFFF3;
+  border: 2px solid #820ad1;
+  box-shadow: 0px 1px 15px rgba(158, 36, 240, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  color: #6B0F79;
+  font-family: 'Varela Round', sans-serif; /* Updated */
+  font-weight: bold;
+}
+
+.card-text {
+  color: #666;
+  font-family: 'Varela Round', sans-serif; /* Updated */
+}
+
+@media (max-width: 320px){
+
+  *{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .email {
+    width: 230px;
+  }
+  .senha {
+    width: 210px;
+  }
+  .identificacao {
+    width: 190px;
+  }
+  .identificacao-select {
+    width: 190px;
+  }
+  .dica-txt {
+    width: 234px;
+  }
+
+  .dica-txt {
+      color: #820ad1;
+  }
+
+
+
+}
